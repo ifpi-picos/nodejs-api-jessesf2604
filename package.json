@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-api-jessesf2604",
+  "version": "1.0.0",
+  "description": "nodejs-api-jessesf2604 created by GitHub Classroom",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "strat": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ifpi-picos/nodejs-api-jessesf2604.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ifpi-picos/nodejs-api-jessesf2604/issues"
+  },
+  "homepage": "https://github.com/ifpi-picos/nodejs-api-jessesf2604#readme"
+}
