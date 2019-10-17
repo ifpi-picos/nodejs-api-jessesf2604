@@ -11,6 +11,11 @@ router.get('/', async (req, res) => {
     res.send(postagens);
 });
 
+router.get('./:id', async (req, res) => {
+    
+})
+
+
 router.post('/', async (req, res) => {
     //salva postagem no banco de dados
     const novaPostagem = req.body;
