@@ -11,7 +11,20 @@ class Postagens{
 
     async consultarTodos (){
         const postagens = await this.Postagem.find({});
-        return postagens;
+        return postagem;
+    }
+
+    async alterarPorId(id, PostagemDTO){
+        await this.Postagem.updateOne({_id: id}, postagemDTO);
+    }
+
+    async consultarPorId(id){
+        const postagem = await this.Postagem.findById(id);
+        return postagem;
+    }
+
+    async deletePorId(id){
+        await this.Postagem.deleteOne({_id: id});
     }
 }
 

@@ -4,12 +4,13 @@
   "description": "nodejs-api-jessesf2604 created by GitHub Classroom",
   "main": "app.js",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "mongoose": "^5.7.5"
   },
   "devDependencies": {},
   "scripts": {
-    "strat": "node app.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
